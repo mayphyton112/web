@@ -1,0 +1,55 @@
+/* 
+속성 선택자
+속성 선택자란, HTML 요소 중에서 특정 속성을 갖고 있는 요소를 선택해서
+스타일을 적용하는 선택자이다.
+정밀한 선택을 하고자 할때 사용한다.
+https://hoazzinews.tistory.com/102
+*/
+
+/* 
+기본문법
+[속성이름]{
+    속성: 속성값;
+}
+*/
+
+/* input{
+    color: red;
+} */
+
+/* .id{
+    color: red;
+} */
+
+input[type="text"]{
+    color: red;
+}
+
+input[type="email"]{
+    font-size: 1.2em;
+}
+
+input[value="sign-up"]{
+    font-weight: bold;
+}
+
+/* [value="sign-up"]{
+    font-weight: bold;
+} value가 하나인 경우 input 무시 가능. */
+
+a[herf="https://www.google.com"]{
+    text-decoration: blue;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a.google{
+    text-decoration: none;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a[hrer="https://www.naver.com"]{
+    font-size: 1.2em;
+}
