@@ -1,19 +1,50 @@
 #memo-wrap{
+    width: 200px;
     float: left;
     border: 1px solid #eee;
     border-radius: 5px;
+    margin: 0 8px 0 20px;
     text-align: left;
-    box-shadow: 3px 3px 3px rgba(200, 200, 200, .1);
     padding: 15px 13px;
+    box-shadow: 3px 3px 3px rgba(200, 200, 200, .1);
 }
 
 #letter-wrap{
-    width: 900px;
+    width: 700px;
     border: 1px solid #eee;
     border-radius: 5px;
-    margin: 50px auto;
-    text-align: center;
+    margin: 25px 0 40px 253px;
+    text-align: left;
     padding: 80px 50px; /*세로 가로*/
     box-shadow: 3px 3px 3px rgba(200, 200, 200, .1);
 }
 
+#letter-wrap div.to{
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#letter-wrap div.head{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: double #dadada;
+    padding-bottom: 10px;
+
+}
+
+#letter-wrap div.body{
+    width: 90%;
+    margin: 30px auto;
+}
+
+#letter-wrap div.body p{
+    margin: 20px 0 0 10px;
+}
+
+#letter-wrap div.from{
+    font-style: italic;
+    text-align: right;
+    margin-top: 50px;
+}
