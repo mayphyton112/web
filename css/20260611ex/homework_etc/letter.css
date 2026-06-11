@@ -1,0 +1,19 @@
+#memo-wrap{
+    float: left;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 3px 3px 3px rgba(200, 200, 200, .1);
+    padding: 15px 13px;
+}
+
+#letter-wrap{
+    width: 900px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 80px 50px; /*세로 가로*/
+    box-shadow: 3px 3px 3px rgba(200, 200, 200, .1);
+}
+

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #242424;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    overflow: hidden;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+}
