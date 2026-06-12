@@ -1,0 +1,86 @@
+#wrap{
+    width: 1100px;
+    margin: 10px auto;
+}
+
+/* 타이틀 시작 */
+#wrap > div.title{
+    width: 94%;
+    margin: 30px auto; /*좌우 균등분할*/
+    text-align: center;
+    border-bottom: 1px dashed #dadada;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+/* 타이틀 끝 */
+
+/* 리스트 시작 */
+#wrap table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9em;
+}
+
+#wrap table th{
+    padding: 7px;
+    border: 1px solid #dadada;
+    background-color: #f5f5f5;
+
+}
+
+#wrap table td{
+    padding: 12px 7px; /*위아래, 좌우*/
+    border: 1px solid #dadada;
+    text-align: center;
+
+}
+
+#wrap table td:nth-child(1){
+    width: 50px;
+}
+
+#wrap table td:nth-child(2){
+    text-align: left; /*가장 큰 값을 가지는 것은 width값을 주지 않는것이 관례다*/
+}
+
+#wrap table td:nth-child(3){
+    width: 130px;
+}
+
+#wrap table td:nth-child(4){
+    width: 130px;
+}
+
+#wrap table td:nth-child(4){
+    width: 50px;
+}
+
+#wrap table tr:hover{
+    background-color: #fafafa;
+}
+/* 리스트 끝 */
+
+/* write 시작 */
+#wrap > div.fun{
+    margin-top: 8px;
+    text-align: right;
+    font-size: .8em;
+}
+
+#wrap > div.fun > a{
+    padding: 5px 10px;
+    background-color: #48bae4;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+#wrap > div.fun > a:hover{
+    text-decoration: none;
+    background-color: #3dadd7;
+}
+
+/* #wrap > div.fun > a{
+    border: 1px solid #000;
+} */
+/* write 끝 */
