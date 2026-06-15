@@ -1,5 +1,5 @@
 #wrap{
-    width: 800;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -15,11 +15,11 @@
 /*제목 끝*/
 
 /*메뉴 시작*/
-#wrap > div.memu_wrap{
+#wrap > div.menu_wrap{
     text-align: center;
 }
 
-#wrap > div.memu_wrap a{
+#wrap > div.menu_wrap a {
     display: inline-block; /*ininle + block*/
     width: 100px;
     margin: 10px 5px;
@@ -28,7 +28,7 @@
     border-radius: 10px;
 }
 
-#wrap > div.menu_wrap a:hover{
+#wrap > div.menu_wrap a:hover {
     background-color: #e0e0e0;
     text-decoration: none;
 }
@@ -59,7 +59,7 @@
 }
 
 #wrap > div.write_wrap > input,
-#wrap > idv.write_wrap > button{
+#wrap > div.write_wrap > button{
     padding: 20px;
     margin: 10px 0;
     border: 1px solid #dadada;
@@ -68,11 +68,11 @@
 
 }
 
-#wrap > div.write_wrap > input{
+#wrap > div.write_wrap > input {
     width: 500px;
 }
 
-#wrap > div.write_wrap > button{
+#wrap > div.write_wrap > button {
     cursor: pointer;
 }
 /*일기 작성 끝*/

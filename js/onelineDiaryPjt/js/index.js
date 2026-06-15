@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function(){
-    console.log('DOCUMENT READY')
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOCUMENT READY');
     init();
 
 });
@@ -18,21 +18,21 @@ function addEvents() {
     console.log('addEvents() called');
 
     let signUpMenuBtn = document.querySelector('div.menu_wrap a.sign_up');
-    signUpMenuBtn.addEventListener('click', function(){
+    signUpMenuBtn.addEventListener('click', function() {
         console.log('signUpMenuBtn Clicked');
 
         showSelctionedView(SIGN_UP_VIEW);
     });
     
-    let signInMenuBtn = document.querySelector('div.menu_wrap a.sign_up');
-    signInMenuBtn.addEventListener('click', function(){
+    let signInMenuBtn = document.querySelector('div.menu_wrap a.sign_in');
+    signInMenuBtn.addEventListener('click', function() {
         console.log('signInMenuBtn Clicked');
 
         showSelctionedView(SIGN_IN_VIEW);
     });
     
     let signOutMenuBtn = document.querySelector('div.menu_wrap a.sign_out');
-    signOutMenuBtn.addEventListener('click', function(){
+    signOutMenuBtn.addEventListener('click', function() {
         console.log('signOutMenuBtn Clicked');
 
         showSelctionedView(SIGN_OUT_VIEW);
@@ -40,21 +40,22 @@ function addEvents() {
     });
     
     let WriteMenuBtn = document.querySelector('div.menu_wrap a.write');
-    WriteMenuBtn.addEventListener('click', function(){
-        console.log('WriteMenuBtn Clicked');
+    WriteMenuBtn.addEventListener('click', function() {
+        console.log('writeMenuBtn Clicked');
 
         showSelctionedView(DIARY_WRITE_VIEW);
     });
     
     
     let listMenuBtn = document.querySelector('div.menu_wrap a.list');
-    listMenuBtn.addEventListener('click', function(){
+    listMenuBtn.addEventListener('click', function() {
         console.log('ListMenuBtn Clicked');
 
         showSelctionedView(DIARY_LIST_VIEW);
     });
 
     let signUpBtn = document.querySelector('div.sign_up_wrap input[type="button"]');
+    console.log(signUpBtn);
     signUpBtn.addEventListener('click', function() {
         console.log('signUpBtn CALLED');
 
@@ -71,5 +72,7 @@ function addEvents() {
         document.querySelector('div.sign_up_wrap input[name="u_mail"]').value = '';
 
     });
+
+
 }
 
